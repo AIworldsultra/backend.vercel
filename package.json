@@ -1,0 +1,14 @@
+{
+  "name": "ai-world-backend",
+  "version": "1.0.0",
+  "description": "Backend for AI World generating 3D environments with Groq",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "openai": "^4.40.0"
+  }
+}
